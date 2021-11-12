@@ -7,5 +7,12 @@ describe('Mars', ()=> {
     const newMars = new Mars();
     expect(newMars.yearValue).toEqual(1.88)
   });
+
+
+  test('it should return your age in Mars years', () => {
+    const newMars = new Mars(25);
+    newMars.calculateAge();
+    expect(newMars.marsAge).toEqual(13)
+  })
   
 })
