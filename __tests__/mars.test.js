@@ -23,10 +23,10 @@ describe('Mars', ()=> {
   })
 
   test('it should determine how many years past life expectancy', () => {
-    const newMars = new Mars(25,13);
+    const newMars = new Mars(25,2);
     newMars.calculateAge();
     newMars.yearsLeft();
-    expect(newMars.yearsLeft()).toEqual(13)
+    expect(newMars.yearsLeft()).toEqual(11)
   })
   
 })
