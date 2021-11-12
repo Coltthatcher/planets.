@@ -3,9 +3,9 @@ import { TestScheduler } from "jest"
 
 describe('Jupiter', () => {
     
-    test('it should create a new jupiter object with a yea value of 11.86', () => {
+    test('it should create a new jupiter object with a value of 11.86', () => {
       const newJupiter  = new Jupiter() ;
-      expect(Jupiter).toEqual(11.86)
+      expect(newJupiter).toEqual(11.86)
       
     });
     
