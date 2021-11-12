@@ -9,4 +9,10 @@ export default class Mars{
   calculateAge(){
     return this.marsAge += Math.floor((this.age / this.yearValue))
   }
+
+  yearsLeft(){
+    if ((this.lifeExpect - this.marsAge) > 0) {
+      return (this.lifeExpect - this.marsAge);
+    }
+  }
 }
