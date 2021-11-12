@@ -10,8 +10,12 @@ export default class Jupiter{
   }
 
   yearsLeft(){
-    return (this.jupiterAge - this.lifeExpect)
-  }
+    if (this.lifeExpect - this.jupiterAge) > 0 {
+      return (this.lifeExpect - this.jupiterAge)
+    } else { 
+      return (this.jupiterAge - this.lifeExpect)
+    }
+  
   
 }
 

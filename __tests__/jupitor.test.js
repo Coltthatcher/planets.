@@ -17,9 +17,10 @@ describe('Jupiter', () => {
       });
 
     test('it should determine how many years the user has left to live', () => {
-    const newJupiter = new Jupiter(age, lifeExpect);
+    const newJupiter = new Jupiter(25, 100);
+    newJupiter.calculateAge();
     newJupiter.yearsLeft();
-    expect(newJupiter.yearsLeft()).toEqual();
+    expect(newJupiter.yearsLeft()).toEqual(98);
 
   });
 });
