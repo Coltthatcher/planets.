@@ -1,6 +1,7 @@
-export class Calculator {
+export class calculator {
   constructor (age, lifeExpectancy){
     this.birth = birthday;
+    this.earthLife = 
   }
 
 }

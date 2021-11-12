@@ -1,5 +1,5 @@
 import { exportAllDeclaration } from '@babel/types';
 import { TestScheduler } from 'jest';
-import Triangle from './../src/triangle.js';
+import calculator from './../src/triangle.js';
 
-export class 
+describe calculator
