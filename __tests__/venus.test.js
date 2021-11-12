@@ -8,4 +8,10 @@ describe('Venus', ()=> {
     const newVenus = new Venus();
     expect(newVenus.yearValue).toEqual(.62)
   });
+
+  test('it should return your age in venus years', () => {
+    const newVenus = new Venus(25);
+    newVenus.calculateAge();
+    expect(newVenus.venusAge).toEqual(40);
+  });
 })
