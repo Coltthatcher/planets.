@@ -8,6 +8,11 @@ export default class Jupiter{
   calculateAge(){
     return this.jupiterAge += Math.floor((this.age / this.yearValue))
   }
+
+  yearsLeft(){
+    return (this.jupiterAge - this.lifeExpect)
+  }
+  
 }
 
 
