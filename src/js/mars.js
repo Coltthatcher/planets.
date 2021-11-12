@@ -5,4 +5,8 @@ export default class Mars{
     this.yearValue = 1.88;
     this.marsAge = 0;
   }
+
+  calculateAge(){
+    return this.marsAge += Math.floor((this.age / this.yearValue))
+  }
 }
