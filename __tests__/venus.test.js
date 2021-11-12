@@ -14,4 +14,12 @@ describe('Venus', ()=> {
     newVenus.calculateAge();
     expect(newVenus.venusAge).toEqual(40);
   });
+
+  test('it should determine how many years the user has left to live', () => {
+    const newVenus = new Venus(25, 100)
+    newVenus.calculateAge();
+    newVenus.yearsLeft();
+    expect(newVenus.yearsLeft()).toEqual(60)
+
+  });
 })
