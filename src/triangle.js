@@ -1,7 +1,9 @@
 export class calculator {
   constructor (age, lifeExpectancy){
     this.birth = birthday;
-    this.earthLife = 
+    this.earthLife = life;
+    hdhdhdhdhdhdhcbdscbhdsbchsdbcdhbcdhbchdbchdcsabhcabcdhbcdbdh
+
   }
 
 }
