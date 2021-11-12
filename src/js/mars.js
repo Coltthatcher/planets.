@@ -13,6 +13,8 @@ export default class Mars{
   yearsLeft(){
     if ((this.lifeExpect - this.marsAge) > 0) {
       return (this.lifeExpect - this.marsAge);
+    } else {
+      return (this.marsAge - this.lifeExpect);
     }
   }
 }
