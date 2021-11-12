@@ -13,6 +13,13 @@ describe('Mars', ()=> {
     const newMars = new Mars(25);
     newMars.calculateAge();
     expect(newMars.marsAge).toEqual(13)
+  });
+
+  test('it should determine how many years the user has left to live', () => {
+    const newMars = new Mars(25, 100);
+    newMars.calculateAge();
+    newMars.yearsLeft();
+    expect(newMars.yearsLeft()).toEqual(87);
   })
   
 })
