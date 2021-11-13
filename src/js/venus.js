@@ -12,6 +12,8 @@ export default class Venus{
   yearsLeft(){
     if ((this.lifeExpect - this.venusAge) > 0) {
       return (this.lifeExpect - this.venusAge);
+    } else {
+      return (this.venusAge - this.lifeExpect);
     }
   }
 }

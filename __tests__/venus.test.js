@@ -27,6 +27,6 @@ describe('Venus', ()=> {
     const newVenus = new Venus(25, 100)
     newVenus.calculateAge();
     newVenus.yearsLeft();
-    expect(newVenus.yearsLeft()).toEqual(1);
+    expect(newVenus.yearsLeft()).toEqual(60);
   });
 })
