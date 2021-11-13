@@ -22,4 +22,11 @@ describe('Venus', ()=> {
     expect(newVenus.yearsLeft()).toEqual(60)
 
   });
+
+  test('it will determine how many years they are past life expectancy', () => {
+    const newVenus = new Venus(25, 100)
+    newVenus.calculateAge();
+    newVenus.yearsLeft();
+    expect(newVenus.yearsLeft()).toEqual(1);
+  });
 })
