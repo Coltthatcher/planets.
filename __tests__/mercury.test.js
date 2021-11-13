@@ -18,4 +18,11 @@ describe('Mercury', () => {
     expect(newMercury.yearValue).toEqual(.24)
     
   });
+
+  test('it should determine how many years the user has left to live', () => {
+    const newMercury = new Mercury(25, 100);
+    newMercury.calculateAge();
+    newMercury.yearsLeft();
+    expect(newMercury.yearsLeft()).toEqual(98);
+  });
 });

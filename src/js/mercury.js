@@ -8,4 +8,13 @@ export default class Mercury{
   calculateAge(){
     return this.mercuryAge += Math.floor((this.age / this.yearValue))
   }
+
+
+  yearsLeft(){
+    if ((this.lifeExpect - this.mercuryAge) > 0){
+      return (this.lifeExpect - this.mercuryAge);
+    }else {
+      return (this.mercuryAge - this.lifeExpect);
+    }
+  }
 }
