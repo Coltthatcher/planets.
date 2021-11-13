@@ -12,10 +12,10 @@ describe('Mercury', () => {
 
   });
 
-  test('it should return your age in jupiter years', () => {
+  test('it should return your age in mercury years', () => {
     const newMercury = new Mercury(25);
     newMercury.calculateAge();
-    expect(newMercury.yearValue).toEqual(104)
+    expect(newMercury.yearValue).toEqual(.24)
     
-  })
+  });
 });
