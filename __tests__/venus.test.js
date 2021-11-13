@@ -24,9 +24,9 @@ describe('Venus', ()=> {
   });
 
   test('it will determine how many years they are past life expectancy', () => {
-    const newVenus = new Venus(25, 100)
+    const newVenus = new Venus(25, 20)
     newVenus.calculateAge();
     newVenus.yearsLeft();
-    expect(newVenus.yearsLeft()).toEqual(60);
+    expect(newVenus.yearsLeft()).toEqual(20);
   });
-})
+});
