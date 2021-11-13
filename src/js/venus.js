@@ -8,4 +8,10 @@ export default class Venus{
   calculateAge(){
     return this.venusAge += Math.floor((this.age / this.yearValue))
   }
+
+  yearsLeft(){
+    if ((this.lifeExpect - this.venusAge) > 0) {
+      return (this.lifeExpect - this.venusAge);
+    }
+  }
 }
