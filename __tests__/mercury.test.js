@@ -25,4 +25,11 @@ describe('Mercury', () => {
     newMercury.yearsLeft();
     expect(newMercury.yearsLeft()).toEqual(4);
   });
+
+  test('will determine how many years past past life expectancy', () => {
+    const newMercury = new Mercury(25, 1);
+    newMercury.calculateAge();
+    newMercury.yearsLeft();
+    expect(newMercury.yearsLeft()).toEqual(1)
+  });
 });
