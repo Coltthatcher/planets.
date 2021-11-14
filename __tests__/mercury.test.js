@@ -15,7 +15,7 @@ describe('Mercury', () => {
   test('it should return your age in mercury years', () => {
     const newMercury = new Mercury(25);
     newMercury.calculateAge();
-    expect(newMercury.yearValue).toEqual(.24)
+    expect(newMercury.mercuryAge).toEqual(104)
     
   });
 
@@ -23,6 +23,6 @@ describe('Mercury', () => {
     const newMercury = new Mercury(25, 100);
     newMercury.calculateAge();
     newMercury.yearsLeft();
-    expect(newMercury.yearsLeft()).toEqual(98);
+    expect(newMercury.yearsLeft()).toEqual(4);
   });
 });
