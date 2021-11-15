@@ -22,6 +22,8 @@ _This project was an independent project for my full time Epicodus curriculum, i
 * _go to GITHUB and clone the remote url to your local repository_
 * _run npm run install to get jest working_
 * _run separate tests in jest with npm run test_
+* _once you reach 100% coverage in jest with tests move on to the next planets_
+
 
 
 
