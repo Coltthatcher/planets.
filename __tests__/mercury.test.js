@@ -30,6 +30,6 @@ describe('Mercury', () => {
     const newMercury = new Mercury(25, 1);
     newMercury.calculateAge();
     newMercury.yearsLeft();
-    expect(newMercury.yearsLeft()).toEqual(103)
+    expect(newMercury.yearsLeft()).toEqual(103);
   });
 });
