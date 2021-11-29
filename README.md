@@ -23,6 +23,7 @@ _This project was an independent project for my full time Epicodus curriculum, i
 * _run npm run install to get jest working_
 * _run separate tests in jest with npm run test_
 * _once you reach 100% coverage in jest with tests move on to the next planets_
+* _run npm run build so one can use the website from vscode_
 
 
 
