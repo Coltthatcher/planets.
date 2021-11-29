@@ -1,4 +1,4 @@
-import { exportAllDeclaration } from "@babel/types";
+
 import Mars from "../src/js/mars";
 
 describe('Mars', ()=> {

@@ -1,5 +1,3 @@
-import { exportAllDeclaration } from "@babel/types";
-import { TestScheduler } from "jest"
 
 import Mercury from '../src/js/mercury.js';
 
